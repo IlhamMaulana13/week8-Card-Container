@@ -12,19 +12,37 @@ class MyCard extends StatelessWidget {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-        child: Container(
-          padding: const EdgeInsets.all(20.0),
-          child: const Column(
-            children: [
-              Card(
-                color: Colors.red,
-                child: Text(
-                  "Card with color",
-                  style: TextStyle(fontSize: 16.0),
-                ),
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          children: [
+            Card(
+              elevation: 8,
+              color: Colors.red,
+              child: Text("Card with color", style: TextStyle(fontSize: 16.0)),
+            ),
+
+            const SizedBox(height: 20),
+
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.circular(16),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black26,
+                    blurRadius: 10,
+                    offset: Offset(0, 4),
+                  ),
+                ],
               ),
-            ],
-          ),
+              child: Text(
+                "Tinggi bayangan Shadow",
+                style: TextStyle(fontSize: 12.0),
+              ),
+            ),
+
+            
+          ],
         ),
       ),
     );

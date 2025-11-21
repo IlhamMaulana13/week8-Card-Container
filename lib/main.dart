@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
       title: "NIM : 1123150141, ilhamMaulana",
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
       home: const MyCard(),
       debugShowCheckedModeBanner: false,
