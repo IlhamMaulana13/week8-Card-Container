@@ -98,7 +98,7 @@ class MyCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      'an enthusiast in information technology (Digital Sign , Blockchain, etc), with more than 20 years of experiences in the payment industry',
+                      'Sebagai mahasiswa Teknik Informatika, saya memiliki kemampuan analitis dan problem-solving yang kuat yang dapat membantu saya dalam memahami proses produksi dan meningkatkan efisiensi kerja. Saya juga memiliki pengalaman dalam pengembangan aplikasi dan sistem informasi yang dapat diterapkan dalam pengelolaan produksi. Dengan kemampuan dan pengalaman tersebut, saya yakin dapat berkontribusi bagi kemajuan perusahaan dan menjadi aset berharga bagi tim produksi.',
                       style: TextStyle(
                         fontSize: 15,
                         color: Colors.grey[700],
