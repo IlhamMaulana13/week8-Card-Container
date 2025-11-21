@@ -13,7 +13,9 @@ class MyCard extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20.0),
+        child: Center(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Card(
               elevation: 8,
@@ -109,6 +111,7 @@ class MyCard extends StatelessWidget {
               ),
             ),
           ],
+        ),
         ),
       ),
     );
