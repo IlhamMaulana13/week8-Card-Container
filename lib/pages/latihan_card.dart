@@ -112,6 +112,13 @@ class MyCard extends StatelessWidget {
                 // ),
               ),
 
+               const SizedBox(height: 10),
+
+              Card(
+clipBehavior: Clip.antiAlias,
+child: Text("Anti alias clip Card", style: TextStyle(fontSize: 14.0)),
+),
+
               const SizedBox(height: 10),
 
               Card(
@@ -144,6 +151,9 @@ class MyCard extends StatelessWidget {
                   ),
                 ),
               ),
+
+             
+
             ],
           ),
         ),
