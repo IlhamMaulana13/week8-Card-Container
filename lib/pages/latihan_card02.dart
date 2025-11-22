@@ -15,6 +15,7 @@ class MyCard02 extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: Center(
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Column(
                         children: [
