@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "NIM : 1123150141, ilhamMaulana",
+      title: "Week8-Latihan Card&Container",
       theme: ThemeData(
         useMaterial3: true,
       ),
