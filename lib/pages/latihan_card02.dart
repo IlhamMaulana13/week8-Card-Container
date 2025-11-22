@@ -18,6 +18,14 @@ class MyCard02 extends StatelessWidget {
                     children: [
                       Column(
                         children: [
+
+                          Container(
+                            decoration: BoxDecoration(shape: BoxShape.circle),
+                            child: CircleAvatar(
+                              radius: 60,
+                              backgroundImage: AssetImage("assets/images/bott.jpg"),
+                            ),
+                          ),
                       
                           Card(
                             elevation: 8,
