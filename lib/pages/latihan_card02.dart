@@ -14,39 +14,42 @@ class MyCard02 extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(20.0),
                 child: Center(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Column(
-                        children: [
-
-                          Container(
-                            decoration: BoxDecoration(shape: BoxShape.circle),
-                            child: CircleAvatar(
-                              radius: 60,
-                              backgroundImage: AssetImage("assets/images/bott.jpg"),
-                            ),
-                          ),
-                      
-                          Card(
-                            elevation: 8,
-                            shadowColor: Colors.red,
-                            clipBehavior: Clip.antiAlias,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [Colors.blue, Colors.red],
-                                ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Column(
+                          children: [
+                    
+                            Container(
+                              decoration: BoxDecoration(shape: BoxShape.circle),
+                              child: CircleAvatar(
+                                radius: 60,
+                                backgroundImage: AssetImage("assets/images/bott.jpg"),
                               ),
-                              child: Text("text", style: TextStyle(fontSize: 20.0)),
                             ),
-                          ),
-                      
-                        ],
-                      ),
-                    ],
+                        
+                            Card(
+                              elevation: 8,
+                              shadowColor: Colors.red,
+                              clipBehavior: Clip.antiAlias,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    begin: Alignment.topRight,
+                                    end: Alignment.bottomLeft,
+                                    colors: [Colors.blue, Colors.red],
+                                  ),
+                                ),
+                                child: Text("text", style: TextStyle(fontSize: 20.0)),
+                              ),
+                            ),
+                        
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
