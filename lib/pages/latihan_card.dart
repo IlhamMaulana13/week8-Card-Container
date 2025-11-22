@@ -138,14 +138,32 @@ class MyCard extends StatelessWidget {
               const SizedBox(height: 10),
 
               Card(
-shadowColor: Colors.red,
-child: Padding(
-padding: const EdgeInsets.all(8.0),
-child: Text("Shadow Color Card", style: TextStyle(fontSize: 14.0)),
-),
-),
+                shadowColor: Colors.red,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Shadow Color Card",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
 
-const SizedBox(height: 10),
+              const SizedBox(height: 10),
+
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30.0),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    "Custom border Radius Card",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 10),
 
               Card(
                 elevation: 8,

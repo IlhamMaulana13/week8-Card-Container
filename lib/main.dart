@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:week8card/pages/latihan_card.dart';
-//import 'package:week8card/pages/latihan_card02.dart';
+//import 'package:week8card/pages/latihan_card.dart';
+import 'package:week8card/pages/latihan_card02.dart';
 
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const MyCard(),
+      home: const MyCard02(),
       debugShowCheckedModeBanner: false,
     );
   }
