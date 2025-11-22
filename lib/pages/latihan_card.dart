@@ -26,6 +26,16 @@ class MyCard extends StatelessWidget {
             const SizedBox(height: 20),
 
             Container(
+decoration: BoxDecoration(
+borderRadius: BorderRadius.circular(12.0),
+color: Colors.red,
+),
+child: Text("Container with color", style: TextStyle(fontSize: 16.0)),
+),
+
+const SizedBox(height: 20),
+
+            Container(
               decoration: BoxDecoration(
                 color: Colors.yellow,
                 borderRadius: BorderRadius.circular(16),
@@ -43,6 +53,8 @@ class MyCard extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
             Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
@@ -56,6 +68,8 @@ class MyCard extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
             Card(
               margin: EdgeInsets.all(16.0),
               child: Padding(
@@ -63,6 +77,8 @@ class MyCard extends StatelessWidget {
                 child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
               ),
             ),
+
+            const SizedBox(height: 20),
 
             Card(
               shape: RoundedRectangleBorder(
@@ -79,6 +95,8 @@ class MyCard extends StatelessWidget {
               // child: Text("Border tidak menimpa konten"),
               // ),
             ),
+
+            const SizedBox(height: 20),
 
             Card(
               elevation: 8,
