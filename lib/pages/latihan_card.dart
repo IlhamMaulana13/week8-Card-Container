@@ -138,6 +138,16 @@ class MyCard extends StatelessWidget {
               const SizedBox(height: 10),
 
               Card(
+shadowColor: Colors.red,
+child: Padding(
+padding: const EdgeInsets.all(8.0),
+child: Text("Shadow Color Card", style: TextStyle(fontSize: 14.0)),
+),
+),
+
+const SizedBox(height: 10),
+
+              Card(
                 elevation: 8,
                 child: Padding(
                   //padding
