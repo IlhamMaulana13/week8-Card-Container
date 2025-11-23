@@ -46,7 +46,10 @@ class MyCard02 extends StatelessWidget {
                               ],
                             ),
 
-                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 6,
+                            ),
 
                             child: CircleAvatar(
                               radius: 60,
@@ -78,60 +81,103 @@ class MyCard02 extends StatelessWidget {
                                 color: Colors.white,
                                 fontWeight: FontWeight.w500,
                               ),
-                            ),                       
+                            ),
                           ),
 
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Column(
-children: [
-Text(
-"100",
-style: TextStyle(
-fontSize: 22.0,
-fontWeight: FontWeight.bold,
-color: Colors.white,
-),
-),
-SizedBox(height: 5),
-Text(
-"Follower",
-style: TextStyle(
-fontSize: 14.0,
-fontWeight: FontWeight.bold,
-color: Colors.white.withValues(alpha: 0.5),
-),
-),
-],
-),
-
-                              SizedBox(
-                                height: 40,
-                                child: VerticalDivider(thickness: 1,
-                                color: Colors.black, width: 1),
-                              ),
-
-                              Text(
-                                "Column2",
-                                style: TextStyle(fontSize: 11.0,
-                                fontWeight: FontWeight.bold),
+                                children: [
+                                  Text(
+                                    "100",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Follower",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white.withValues(
+                                        alpha: 0.5,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
 
                               SizedBox(
                                 height: 40,
-                                child: VerticalDivider(thickness: 1,
-                                color: Colors.black, width: 1),
+                                child: VerticalDivider(
+                                  thickness: 1,
+                                  color: Colors.black,
+                                  width: 1,
+                                ),
                               ),
 
-                              Text(
-                                "Column3",
-                                style: TextStyle(fontSize: 11.0,
-                                fontWeight: FontWeight.bold),
+                              Column(
+                                children: [
+                                  Text(
+                                    "13",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Following",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white.withValues(
+                                        alpha: 0.5,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(
+                                  thickness: 1,
+                                  color: Colors.black,
+                                  width: 1,
+                                ),
+                              ),
+
+                              Column(
+                                children: [
+                                  Text(
+                                    "56",
+                                    style: TextStyle(
+                                      fontSize: 22.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  SizedBox(height: 5),
+                                  Text(
+                                    "Posts",
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white.withValues(
+                                        alpha: 0.5,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-
                         ],
                       ),
                     ),
