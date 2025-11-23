@@ -27,17 +27,41 @@ class MyCard02 extends StatelessWidget {
                       colors: [Colors.blue, Colors.red],
                     ),
                   ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(shape: BoxShape.circle),
-                        child: CircleAvatar(
-                          radius: 60,
-                          backgroundImage: AssetImage("assets/images/bott.jpg"),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.white, width: 4),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withValues(alpha: 0.2),
+                                    blurRadius: 10,
+                                    offset: Offset(0, 5),
+                                  ),
+                                ],
+                          ),
+                          
+                          child: CircleAvatar(
+                            radius: 60,
+                            backgroundImage: AssetImage("assets/images/bott.jpg"),
+                          ),
                         ),
-                      ),
-                    ],
+                        
+                        SizedBox(height: 10),
+                        Text(
+                          "Muhammad Ilham Maulana",
+                          style: TextStyle(
+                            fontSize: 26.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
