@@ -82,6 +82,7 @@ class MyCard02 extends StatelessWidget {
                           ),
 
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               Text(
                                 "Column1",
