@@ -35,23 +35,27 @@ class MyCard02 extends StatelessWidget {
                         children: [
                           Container(
                             decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  border: Border.all(color: Colors.white, width: 4),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: Colors.black.withValues(alpha: 0.2),
-                                      blurRadius: 10,
-                                      offset: Offset(0, 5),
-                                    ),
-                                  ],
+                              shape: BoxShape.circle,
+                              border: Border.all(color: Colors.white, width: 4),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: 0.2),
+                                  blurRadius: 10,
+                                  offset: Offset(0, 5),
+                                ),
+                              ],
                             ),
-                            
+
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+
                             child: CircleAvatar(
                               radius: 60,
-                              backgroundImage: AssetImage("assets/images/bott.jpg"),
+                              backgroundImage: AssetImage(
+                                "assets/images/bott.jpg",
+                              ),
                             ),
                           ),
-                      
+
                           SizedBox(height: 10),
                           Text(
                             "Muhammad Ilham Maulana",
@@ -61,7 +65,7 @@ class MyCard02 extends StatelessWidget {
                               color: Colors.white,
                             ),
                           ),
-                      
+
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.blue,
@@ -76,7 +80,6 @@ class MyCard02 extends StatelessWidget {
                               ),
                             ),
                           ),
-                      
                         ],
                       ),
                     ),
