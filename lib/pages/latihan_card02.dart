@@ -78,8 +78,43 @@ class MyCard02 extends StatelessWidget {
                                 color: Colors.white,
                                 fontWeight: FontWeight.w500,
                               ),
-                            ),
+                            ),                       
                           ),
+
+                          Row(
+                            children: [
+                              Text(
+                                "Column1",
+                                style: TextStyle(fontSize: 11.0,
+                                fontWeight: FontWeight.bold),
+                              ),
+
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(thickness: 1,
+                                color: Colors.black, width: 1),
+                              ),
+
+                              Text(
+                                "Column2",
+                                style: TextStyle(fontSize: 11.0,
+                                fontWeight: FontWeight.bold),
+                              ),
+
+                              SizedBox(
+                                height: 40,
+                                child: VerticalDivider(thickness: 1,
+                                color: Colors.black, width: 1),
+                              ),
+
+                              Text(
+                                "Column3",
+                                style: TextStyle(fontSize: 11.0,
+                                fontWeight: FontWeight.bold),
+                              ),
+                            ],
+                          ),
+
                         ],
                       ),
                     ),
