@@ -84,11 +84,27 @@ class MyCard02 extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              Text(
-                                "Column1",
-                                style: TextStyle(fontSize: 11.0,
-                                fontWeight: FontWeight.bold),
-                              ),
+                              Column(
+children: [
+Text(
+"100",
+style: TextStyle(
+fontSize: 22.0,
+fontWeight: FontWeight.bold,
+color: Colors.white,
+),
+),
+SizedBox(height: 5),
+Text(
+"Follower",
+style: TextStyle(
+fontSize: 14.0,
+fontWeight: FontWeight.bold,
+color: Colors.white.withValues(alpha: 0.5),
+),
+),
+],
+),
 
                               SizedBox(
                                 height: 40,
